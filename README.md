@@ -15,11 +15,11 @@ You might need to change the architecture of the pulled image in the compose fil
 This is for Raspberry Pi 4 using 64 bit Raspbian as host.
 
 To use this with Zigbee2MQTT, start the container and then in the configuration.yaml file of Zigbee2MQTT use this port configuration:
-
+```
 serial:
   port: tcp://host_ip:20108
   adapter: ezsp
-
+```
 ## Update
 
 To update firmware change the name in .env file an set AUTOFLASH_FIRMWARE to 1.
