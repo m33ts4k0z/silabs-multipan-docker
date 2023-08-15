@@ -2,6 +2,8 @@
 
 # Silabs multiprotocol for HA docker installtion
 
+This does the same as the Silicon Labs addon for HAOS.
+
 Basically changed s6-overlay scripts and delete bashio.
 
 Modify the .env to change configuration (ports, enable/disable options).
