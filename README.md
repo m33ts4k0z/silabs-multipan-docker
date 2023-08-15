@@ -23,7 +23,7 @@ serial:
   adapter: ezsp
 ```
 Restart Zigbee2MQTT. 
-It might take a couple of tried for Zigbee2MQTT to connect the first time but it will work without issues afterwards.
+It might take a couple of tries for Zigbee2MQTT to connect the first time but it will work without issues afterwards.
 
 ## Update
 
