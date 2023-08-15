@@ -2,7 +2,7 @@
 
 # Silabs multiprotocol for HA docker installtion
 
-This container is a dockerized version of the Silicon Labs addon for HAOS.
+This container is a dockerized version of the [Silicon Labs addon for HAOS](https://skyconnect.home-assistant.io/procedures/enable-multiprotocol/).
 
 Basically changed s6-overlay scripts and delete bashio.
 
