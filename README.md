@@ -1,3 +1,5 @@
+# Based on the work from @nervousapps
+
 # Silabs multiprotocol for HA docker installtion
 
 Basically changed s6-overlay scripts and delete bashio.
