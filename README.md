@@ -2,7 +2,7 @@
 
 # Silabs multiprotocol for HA docker installtion
 
-This does the same as the Silicon Labs addon for HAOS.
+This container is a dockerized version of the Silicon Labs addon for HAOS.
 
 Basically changed s6-overlay scripts and delete bashio.
 
