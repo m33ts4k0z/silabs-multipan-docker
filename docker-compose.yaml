@@ -1,0 +1,19 @@
+version: "3.3"
+services:
+    # Silab multiprotocol
+    multipan:
+        container_name: multipan
+        image: "homeassistant/aarch64-addon-silabs-multiprotocol:latest"
+        env_file: .env
+        cap_add:
+          - SYS_ADMIN
+          - NET_ADMIN
+        #devices:
+          # Make sure this matched your adapter location
+          #- /dev/serial/by-id/usb-Nabu_Casa_SkyConnect_v1.0_1e5b153c3291ed1181d0c8d13b20a988-if00-port0:/dev/ttyUSB0
+        #volumes:
+          #- /root:/root
+        #restart: always
+        privileged: true
+        network_mode: host
+        build: ./

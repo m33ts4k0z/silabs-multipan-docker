@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bash
+#==============================================================================
+# EmberZNet Zigbee Daemon finish script
+#==============================================================================
+source /etc/bashlog/log.sh;
+
+log 'info' "zigbeed ended with exit code ${1} (signal ${2})..."

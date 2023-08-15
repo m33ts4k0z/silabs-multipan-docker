@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bash
+#==============================================================================
+# OpenThread BorderRouter web interface finish script
+#==============================================================================
+source /etc/bashlog/log.sh;
+
+log 'info' "otbr-web ended with exit code ${1} (signal ${2})..."

@@ -1,0 +1,13 @@
+#!/usr/bin/with-contenv bash
+# ==============================================================================
+# Take down the container if cpcd exits
+# ==============================================================================
+source /etc/bashlog/log.sh;
+
+log 'info' "CPC ended with exit code ${1} (signal ${2})..."
+rm -r /dev/shm/cpcd
+
+
+if [ ${1} -ne 0 ] && [ ${1} -ne 256 ]; then
+    /run/s6/basedir/bin/halt
+fi

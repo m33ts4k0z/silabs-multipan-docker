@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bash
+#==============================================================================
+# mDNSResponder finish script
+#==============================================================================
+source /etc/bashlog/log.sh;
+
+log 'info' "mDNS ended with exit code ${1} (signal ${2})..."
