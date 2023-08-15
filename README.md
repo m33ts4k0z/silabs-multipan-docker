@@ -1,6 +1,6 @@
 # Based on the work from [@nervousapps](https://github.com/nervousapps/haDOCKERaddons/tree/master/silabs-multiprotocol/dockerCustom)
 
-# Silabs multiprotocol for HA docker installtion
+# Silabs multiprotocol for HA docker installation
 
 This container is a dockerized version of the [Silicon Labs multiprotocol addon for HAOS](https://skyconnect.home-assistant.io/procedures/enable-multiprotocol/).
 
