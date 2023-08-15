@@ -6,6 +6,14 @@ Basically changed s6-overlay scripts and delete bashio.
 
 Modify the .env to change configuration (ports, enable/disable options).
 
+# Setup
+
+If you use portainer, you can deploy a stack directly from the repo. The firmware is included and will be automatically flashed if you don’t change anything. Nothing else needs to be done or moved.
+
+You might need to change the architecture of the pulled image in the compose file so it matches your system. 
+
+This is for Raspberry Pi 4 using 64 bit Raspbian as host.
+
 ## Update
 
 To update firmware change the name in .env file an set AUTOFLASH_FIRMWARE to 1.
