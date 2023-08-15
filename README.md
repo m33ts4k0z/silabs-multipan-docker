@@ -1,4 +1,4 @@
-# Based on the work from @nervousapps
+# Based on the work from [@nervousapps](https://github.com/nervousapps/haDOCKERaddons/tree/master/silabs-multiprotocol/dockerCustom)
 
 # Silabs multiprotocol for HA docker installtion
 
