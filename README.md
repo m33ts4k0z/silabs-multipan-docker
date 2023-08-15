@@ -22,6 +22,9 @@ serial:
   port: tcp://host_ip:20108
   adapter: ezsp
 ```
+Restart Zigbee2MQTT. 
+It might take a couple of tried for Zigbee2MQTT to connect the first time but it will work without issues afterwards.
+
 ## Update
 
 To update firmware change the name in .env file an set AUTOFLASH_FIRMWARE to 1.
