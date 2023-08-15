@@ -10,7 +10,7 @@ Modify the .env to change configuration (ports, enable/disable options).
 
 # Setup
 
-If you use portainer, you can deploy a stack directly from the repo. The firmware is included and will be automatically flashed if you don’t change anything. Nothing else needs to be done or moved.
+If you use portainer, you can deploy a stack directly from the repo. The firmware is included and will be automatically flashed to your SkyConnect stick if you don’t change anything. Nothing else needs to be done or moved.
 
 You might need to change the architecture of the pulled image in the compose file so it matches your system. 
 
