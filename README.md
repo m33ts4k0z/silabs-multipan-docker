@@ -1,8 +1,8 @@
-# Based on the work from [@nervousapps](https://github.com/nervousapps/haDOCKERaddons/tree/master/silabs-multiprotocol/dockerCustom)
+# Based on the work by [@nervousapps](https://github.com/nervousapps/haDOCKERaddons/tree/master/silabs-multiprotocol/dockerCustom)
 
-# Silabs multiprotocol for HA docker installtion
+# Silabs multiprotocol for HA docker installation
 
-This container is a dockerized version of the Silicon Labs addon for HAOS.
+This container is a dockerized version of the [Silicon Labs multiprotocol addon for HAOS](https://skyconnect.home-assistant.io/procedures/enable-multiprotocol/).
 
 Basically changed s6-overlay scripts and delete bashio.
 
@@ -10,7 +10,7 @@ Modify the .env to change configuration (ports, enable/disable options).
 
 # Setup
 
-If you use portainer, you can deploy a stack directly from the repo. The firmware is included and will be automatically flashed if you don’t change anything. Nothing else needs to be done or moved.
+If you use portainer, you can deploy a stack directly from the repo. The firmware is included and will be automatically flashed to your SkyConnect stick if you don’t change anything. Nothing else needs to be done or moved.
 
 You might need to change the architecture of the pulled image in the compose file so it matches your system. 
 
@@ -22,6 +22,9 @@ serial:
   port: tcp://host_ip:20108
   adapter: ezsp
 ```
+Restart Zigbee2MQTT. 
+It might take a couple of tries for Zigbee2MQTT to connect the first time but it will work without issues afterwards.
+
 ## Update
 
 To update firmware change the name in .env file an set AUTOFLASH_FIRMWARE to 1.
