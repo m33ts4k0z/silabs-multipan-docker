@@ -3,7 +3,7 @@ services:
     # Silab multiprotocol
     multipan:
         container_name: multipan
-        image: "homeassistant/aarch64-addon-silabs-multiprotocol:latest"
+        image: "homeassistant/aarch64-addon-silabs-multiprotocol:2.4.1"
         env_file: .env
         cap_add:
           - SYS_ADMIN
