@@ -1,4 +1,6 @@
-# Based on the work by [@nervousapps](https://github.com/nervousapps/haDOCKERaddons/tree/master/silabs-multiprotocol/dockerCustom)
+# This container is now outdated. Please use the current version maintained by b2un0 found [here](https://github.com/b2un0/silabs-multipan-docker)
+
+## Based on the work by [@nervousapps](https://github.com/nervousapps/haDOCKERaddons/tree/master/silabs-multiprotocol/dockerCustom)
 
 # Silabs multiprotocol for HA docker installation
 
